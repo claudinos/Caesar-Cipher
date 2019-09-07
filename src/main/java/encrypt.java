@@ -1,50 +1,33 @@
-import java.util.Scanner;
-
 public class encrypt {
-    public static void main(String[] args)
+//    Encrypt ana=new Encrypt();
 
-    {
+    public static String encryption(String plainText, int key) {
 
-        char alphabets [] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
-
-                'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
-
-                'U', 'V', 'W', 'X', 'Y', 'Z'};
-
-        System.out.println("Enter the word you want to ENCRYPT");
-
-        Scanner input = new Scanner(System.in);
-
-        String word = input.nextLine();
-
-        int key = 5;
-
-
-
-        char array [] = word.toUpperCase().toCharArray();
-
-
-
-        for (int i = 0; i < array.length; i++)
-
-        {
-
-            for (int j = 0; j < alphabets.length; j++)
-
-            {
-
-                array[i] = alphabets[(i + key) % 26];
-
+        String cipherText="";
+        for (int i=0;i<plainText.toCharArray().length;i++){
+            char alph=plainText.charAt(i);
+            if (Character.isLetter(alph)){
+                if (Character.isLowerCase(alph)){
+                    char txt=(char)(alph+key);
+                    if (txt>'z'){
+                        cipherText=cipherText+(char)(alph-(26-key));
+                    }else {
+                        cipherText=cipherText+txt;
+                    }
+                }
+                else if (Character.isUpperCase(alph)){
+                    char txt=(char)(alph+key);
+                    if (txt>'Z'){
+                        cipherText=cipherText+(char)(alph-(26-key));
+                    }else {
+                        cipherText=cipherText+txt;
+                    }
+                }
             }
-
+            else {
+                cipherText=cipherText+alph;
+            }
         }
-
-
-
-        String cipher = String.valueOf(array);
-
-        System.out.println("Encrypted Message" + cipher);
-        System.out.println(array);
+        return cipherText;
     }
-
 }
