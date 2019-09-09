@@ -4,12 +4,12 @@
 
 ## Description
 
-This is an app that helps the user encrypt the message using ceaser cliper method.
+This is an application  that helps the user to encrypt and decrypt  message using ceasar cipher method.
 
 ## SETUP INSTALLATION REQUIRED
     *UBUNTU
     *INTELLIJ
-    *GOOGLE CHROME
+   
     
  ## TECHNOLOGY USED 
  
@@ -20,12 +20,21 @@ This is an app that helps the user encrypt the message using ceaser cliper metho
 
 ## BDD
 
-**The program should return when the user enter a message to be sent** 
+** input ** 
 
-    Input Example: Enter the word to be encrypted: "CLAUDINE"
-                    shift: 4
+    Input : Enter the word to be encrypted: "CLAUDINE"
+    shift: 4
+** output ** 
 
-    Output Example:  GPEYHMRI
+    Output :  GPEYHMRI
+    
+ ** input ** 
+    
+        Input : Enter the word to be decrypted: " GPEYHMRI"
+        shift: 4
+ ** output ** 
+    
+        Output :  CLAUDINE
  
 
 ## Support and contact details
@@ -33,3 +42,4 @@ contact us on claudinos1990@gmail.com.
 
 ### License
 MIT Copyright (c) 2019 By Claudine UMUHIRE. 
+# caesar-cipher
