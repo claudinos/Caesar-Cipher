@@ -6,8 +6,15 @@
 
 This is an app that helps the user encrypt the message using ceaser cliper method.
 
-## Setup/Installation Requirements
-* Connect to the internet
+## SETUP INSTALLATION REQUIRED
+    *UBUNTU
+    *INTELLIJ
+    *GOOGLE CHROME
+    
+ ## TECHNOLOGY USED 
+ 
+    *JAVA 
+    *NETWORK connection
 
 
 
@@ -21,11 +28,6 @@ This is an app that helps the user encrypt the message using ceaser cliper metho
     Output Example:  GPEYHMRI
  
 
-
-## Technologies Used
-
-* Java
- 
 ## Support and contact details
 contact us on claudinos1990@gmail.com.
 
