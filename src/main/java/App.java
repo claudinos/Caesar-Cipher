@@ -11,10 +11,14 @@ public class App {
         String Wordencoded= encrypt.encry( caesar,hey);
         System.out.println(Wordencoded);
         System.out.println("-----------------------");
-        System.out.println("The initial word is :");
-        System.out.println(caesar);
-        String Worddecoded=decrypt.decry(caesar,hey);
-        System.out.println(Worddecoded);
+
+        System.out.println("Enter the word to be decrypted");
+        Scanner hello=new Scanner(System.in);
+        String clo=hello.nextLine();
+        System.out.println("Enter a key you want to use");
+        int key=hello.nextInt();
+        String Worddecoded=decrypt.decry(clo,key);
+        System.out.println( Worddecoded);
 
     }
 

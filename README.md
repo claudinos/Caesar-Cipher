@@ -9,16 +9,17 @@ This is an application  that helps the user to encrypt and decrypt  message usin
 ## SETUP INSTALLATION REQUIRED
     *UBUNTU
     *INTELLIJ
-   
     
  ## TECHNOLOGY USED 
  
     *JAVA 
     *NETWORK connection
 
-
-
 ## BDD
+
+<img src="photo/app.png">
+<img src="photo/encry.png">
+<img src="photo/decry.png">
 
 ** input ** 
 
@@ -36,7 +37,6 @@ This is an application  that helps the user to encrypt and decrypt  message usin
     
         Output :  CLAUDINE
  
-
 ## Support and contact details
 contact us on claudinos1990@gmail.com.
 
