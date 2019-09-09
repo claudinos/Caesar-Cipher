@@ -27,7 +27,7 @@ This is an app that helps the user encrypt the message using ceaser cliper metho
 * Java
  
 ## Support and contact details
-If you any issues or have questions, ideas or concerns contact us on chelseasabinesangwa@gmail.com.
+contact us on claudinos1990@gmail.com.
 
 ### License
-MIT Copyright (c) 2019By Claudine UMUHIRE. #Ceasar_Cliper 
+MIT Copyright (c) 2019 By Claudine UMUHIRE. 
