@@ -20,10 +20,11 @@ This is an app that helps the user encrypt the message using ceaser cliper metho
 
 ## BDD
 
-**The program should return when the user enter a message to be sent** 
+**input ** 
 
     Input Example: Enter the word to be encrypted: "CLAUDINE"
                     shift: 4
+**input ** 
 
     Output Example:  GPEYHMRI
  
