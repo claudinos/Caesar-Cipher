@@ -1,4 +1,4 @@
-# Ceasar Cliper
+# Ceasar Cipher
 
 ## *By Claudine UMUHIRE*
 
