@@ -1,33 +1,43 @@
 public class encrypt {
-//    Encrypt ana=new Encrypt();
+    public static String encry(String plainText, int key) {
 
-    public static String encryption(String plainText, int key) {
-
-        String cipherText="";
+        String Text="";
         for (int i=0;i<plainText.toCharArray().length;i++){
-            char alph=plainText.charAt(i);
-            if (Character.isLetter(alph)){
-                if (Character.isLowerCase(alph)){
-                    char txt=(char)(alph+key);
-                    if (txt>'z'){
-                        cipherText=cipherText+(char)(alph-(26-key));
-                    }else {
-                        cipherText=cipherText+txt;
+
+            char alphabet=plainText.charAt(i);
+
+            if (Character.isLetter(alphabet)){
+
+                if (Character.isLowerCase(alphabet)){
+
+                    char word=(char)(alphabet+key);
+
+                    if (word>'z'){
+
+                        Text=Text+(char)(alphabet-(26-key));
+
+                    }
+                    else {
+                        Text=Text+word;
                     }
                 }
-                else if (Character.isUpperCase(alph)){
-                    char txt=(char)(alph+key);
-                    if (txt>'Z'){
-                        cipherText=cipherText+(char)(alph-(26-key));
-                    }else {
-                        cipherText=cipherText+txt;
+                else if (Character.isUpperCase(alphabet)){
+
+                    char word=(char)(alphabet+key);
+
+                    if (word>'Z'){
+
+                        Text=Text+(char)(alphabet-(26-key));
+                    }
+                    else {
+                        Text=Text+word;
                     }
                 }
             }
             else {
-                cipherText=cipherText+alph;
+                Text=Text+alphabet;
             }
         }
-        return cipherText;
+        return Text;
     }
 }
