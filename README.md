@@ -16,9 +16,11 @@ This is an application  that helps the user to encrypt and decrypt  message usin
     *NETWORK connection
 
 ## BDD
-
+Main App screenshoot  
 <img src="photo/app.png">
+Encrypted  screenshoot  
 <img src="photo/encry.png">
+Decrypted  screenshoot
 <img src="photo/decry.png">
 
 ** input ** 
