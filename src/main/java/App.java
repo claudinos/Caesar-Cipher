@@ -10,7 +10,7 @@ public class App {
         hey=cipher.nextInt();
         String Wordencoded= encrypt.encry( caesar,hey);
         System.out.println(Wordencoded);
-        System.out.println("-----------------------");
+        System.out.println("###################");
 
         System.out.println("Enter the word to be decrypted");
         Scanner hello=new Scanner(System.in);
